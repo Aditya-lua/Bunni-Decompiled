@@ -1,0 +1,6 @@
+program=warp-svc.exe
+functions=42095
+decompiled=42037
+failed=58
+external=0
+pseudocode_chunks=43

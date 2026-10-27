@@ -1,0 +1,16 @@
+Property	Value
+s72	l0
+Property	Property
+ALLUSERS	1
+ARPPRODUCTICON	icon.ico
+ARPNOMODIFY	1
+FULL_VERSION	2026.8.2115.0
+REINSTALLMODE	amus
+REBOOT	ReallySuppress
+Manufacturer	Cloudflare, Inc.
+ProductCode	{BC095815-030E-4AFD-8AA2-6B8A8FAE0B9A}
+ProductLanguage	1033
+ProductName	Cloudflare One Client
+ProductVersion	26.8.2115.0
+UpgradeCode	{1BF42825-7B65-4CA9-AFFF-B7B5E1CE27B4}
+SecureCustomProperties	WIX_UPGRADE_DETECTED

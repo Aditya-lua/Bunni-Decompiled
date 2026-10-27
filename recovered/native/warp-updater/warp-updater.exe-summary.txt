@@ -1,0 +1,6 @@
+program=warp-updater.exe
+functions=7838
+decompiled=7828
+failed=10
+external=0
+pseudocode_chunks=8

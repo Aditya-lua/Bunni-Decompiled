@@ -1,0 +1,6 @@
+program=rust_bridge.dll
+functions=10392
+decompiled=10384
+failed=8
+external=0
+pseudocode_chunks=11

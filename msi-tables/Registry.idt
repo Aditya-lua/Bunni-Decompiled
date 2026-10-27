@@ -1,0 +1,14 @@
+Registry	Root	Key	Name	Value	Component_
+s72	i2	l255	L255	L0	s72
+Registry	Registry
+regAXULhqdcSHysOTPOjhAutWAfIFE	2	Software\Cloudflare\CloudflareWARP	Version	2026.8.2115.0	VersionRegistry
+regJSBdGTbglOqxXBD9WZRZMW7Evk8	2	Software\Cloudflare\CloudflareWARP	DataFolder	#1	CloudflareDataFolder
+regSuzi_9NzmfutRHcCuM1luHapOTo	0	com.cloudflare.warp	URL Protocol		UrlToApp
+regB90dU06Zn3r1O6aBmK0PuDflSQo	1	Software\Cloudflare\CloudflareWARP	installed	#1	ApplicationShortcut
+regNKl9Anl9wEmQZvLkfAcad5hm5j8	2	SOFTWARE\Microsoft\Windows\CurrentVersion\Run	CloudflareWARP	[#Cloudflare_WARP.exe]	Cloudflare_WARP.exe
+regEgsrNNOyHMNpHz3a0xKFPyaC344	0	com.cloudflare.warp		URL:com.cloudflare.warp Protocol	UrlToApp
+regDXeNH03vB6qs_pMDo2pI_gxrMdU	0	com.cloudflare.warp	*		UrlToApp
+regysIi1Fe08x7NCXMqyUcmIE0A8a0	0	com.cloudflare.warp\DefaultIcon		"[#Cloudflare_WARP.exe]", 1	UrlToApp
+reg4MhMkUWcAL5GMrS8NHAKqhfPEw8	0	com.cloudflare.warp\DefaultIcon	*		UrlToApp
+regvkhmItJ31GoIXnrTrQEK1SVXRmA	0	com.cloudflare.warp\shell\open\command		"[#Cloudflare_WARP.exe]" "%1"	UrlToApp
+reglPQ70B69ADKM9v4YmdjeD8HjFqg	0	com.cloudflare.warp\shell\open\command	*		UrlToApp

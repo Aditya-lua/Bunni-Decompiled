@@ -1,0 +1,6 @@
+program=warp-diag.exe
+functions=18795
+decompiled=18768
+failed=27
+external=0
+pseudocode_chunks=19

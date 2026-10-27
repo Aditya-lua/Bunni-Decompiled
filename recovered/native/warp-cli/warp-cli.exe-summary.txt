@@ -1,0 +1,6 @@
+program=warp-cli.exe
+functions=12792
+decompiled=12770
+failed=22
+external=0
+pseudocode_chunks=13

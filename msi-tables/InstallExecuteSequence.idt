@@ -1,0 +1,51 @@
+Action	Condition	Sequence
+s72	S255	I2
+InstallExecuteSequence	Action
+LaunchGUICA	(NOT REMOVE) OR (REINSTALL)	6601
+ReadCmdLineParams1		1502
+ReadCmdLineParams2		1503
+ReadCmdLineParams3		1504
+ReadCmdLineParamsCA_Data		1505
+ReadCmdLineParamsCA		1506
+DeleteInstallDirectoriesCA	REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE	3502
+DeleteAppDataDirectoryCA	REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE	3501
+DeleteUserAppDataDirectoriesCA	REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE	3503
+SetDeleteRegistrations		1897
+DeleteRegistrations	REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE	1898
+KillGUIProcessCA		1399
+StopRunningProcessesCA		1899
+DeleteUrlProtocolRegistryKeysCA	REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE	2601
+SecureDataDirectoryCA	NOT (REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE)	1507
+SetStopUpdaterCA		1895
+StopUpdaterCA		1896
+ConfigureServiceCA	NOT REMOVE="ALL"	5801
+CostInitialize		800
+FileCost		900
+CostFinalize		1000
+InstallValidate		1400
+InstallInitialize		1500
+InstallFiles		4000
+InstallFinalize		6600
+CreateShortcuts		4500
+PublishFeatures		6300
+PublishProduct		6400
+FindRelatedProducts		25
+ValidateProductID		700
+MigrateFeatureStates		1200
+ProcessComponents		1600
+UnpublishFeatures		1800
+StopServices	VersionNT	1900
+DeleteServices	VersionNT	2000
+RemoveRegistryValues		2600
+RemoveShortcuts		3200
+RemoveEnvironmentStrings		3300
+RemoveFiles		3500
+RemoveFolders		3600
+CreateFolders		3700
+WriteRegistryValues		5000
+WriteEnvironmentStrings		5200
+InstallServices	VersionNT	5800
+StartServices	VersionNT	5900
+RegisterUser		6000
+RegisterProduct		6100
+RemoveExistingProducts		1501

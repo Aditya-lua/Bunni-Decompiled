@@ -1,0 +1,5 @@
+ServiceInstall	Name	DisplayName	ServiceType	StartType	ErrorControl	LoadOrderGroup	Dependencies	StartName	Password	Arguments	Component_	Description
+s72	s255	L255	i4	i4	i4	S255	S255	S255	S255	S255	s72	L255
+ServiceInstall	ServiceInstall
+ServiceInstall	CloudflareWARP	Cloudflare One Client	16	2	1			LocalSystem			warp_svc.exe	Cloudflare One Client
+UpdaterServiceInstall	CloudflareWARPUpdater	Cloudflare One Client Updater	16	3	1			LocalSystem			warp_updater.exe	Manages automatic updates for the Cloudflare One Client

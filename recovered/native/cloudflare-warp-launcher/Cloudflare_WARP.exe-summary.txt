@@ -1,0 +1,6 @@
+program=Cloudflare WARP.exe
+functions=307
+decompiled=307
+failed=0
+external=0
+pseudocode_chunks=1

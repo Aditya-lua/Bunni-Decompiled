@@ -1,0 +1,6 @@
+program=warp-dex.exe
+functions=16030
+decompiled=16015
+failed=15
+external=0
+pseudocode_chunks=17
